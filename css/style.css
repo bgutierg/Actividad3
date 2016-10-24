@@ -273,8 +273,6 @@ div {
 	color: #000;
 }
 
-
-
 /*#contenidosautores{
 	width: 2000px;
 	height: auto;
@@ -311,6 +309,7 @@ h3{
 	font-size: 11px;
 	text-align: center;
 }
+
 header{
 	width: 1000px;
 	height: 120 px;
@@ -415,6 +414,43 @@ p{
 	color: #003F5E;
 	text-decoration: none;
 }
+
+.menu li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+	padding-left: 0%;
+}			
+.menu li:hover > ul {
+	display:block;
+	float: left;
+}
+.menu li ul li {
+	position: relative;
+
+}
+			
+.menu li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+.nav {
+				width:500px; /*Le establecemos un ancho*/
+				margin:0 auto; /*Centramos automaticamente*/
+			}
+ 
+.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
 
 /*SEUDO CLASES*/
 p {
