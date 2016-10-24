@@ -200,6 +200,7 @@ div {
 }
         .class body section article p {
 	font-weight: bold;
+
 }
         #apDiv21 {
 	position: absolute;
@@ -309,7 +310,14 @@ h3{
 	font-size: 11px;
 	text-align: center;
 }
-
+h4{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #1C2123;
+	margin-left: 10px;
+	font-size: 15px;
+	text-align: left;
+	border-top: #006680;
+}
 header{
 	width: 1000px;
 	height: 120 px;
@@ -343,6 +351,7 @@ section{
 	float: left;
 	margin-top: 7px;
 	border-radius: 10px 0px 0px 0px;
+	overflow: scroll;
 }
 
 #seccionautores{
